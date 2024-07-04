@@ -1,0 +1,1 @@
+# pimcore-asset-thumbnails
