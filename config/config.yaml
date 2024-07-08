@@ -1,0 +1,11 @@
+framework:
+    messenger:
+        transports:
+            ntriga_thumbs:
+                dsn: 'doctrine://default?queue_name=ntriga_thumbs'
+                retry_strategy:
+                    max_retries: 5
+                    delay: 10000
+                    multiplier: 3
+        routing:
+            'Ntriga\PimcoreAssetThumbnails\Message\GenerateImageThumbnailMessage': ntriga_thumbs

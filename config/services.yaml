@@ -1,0 +1,15 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    # ---------------------------------------------------------
+    # Actions
+    # ---------------------------------------------------------
+    Ntriga\PimcoreAssetThumbnails\Action\GenerateImageThumbnailsAction:
+
+    # ---------------------------------------------------------
+    # Message Handlers
+    # ---------------------------------------------------------
+    Ntriga\PimcoreAssetThumbnails\MessageHandler\GenerateImageThumbnailMessageHandler: ~
