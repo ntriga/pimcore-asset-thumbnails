@@ -2,11 +2,11 @@
 
 namespace Ntriga\PimcoreAssetThumbnails\Message;
 
-class GenerateImageThumbnailMessage
+class GenerateSingleImageThumbnailMessage
 {
     public function __construct(
         private readonly int $assetId,
-        private readonly array $thumbnailConfigNames,
+        private readonly string $thumbnailConfigName,
     ){}
 
     public function getAssetId(): int
@@ -14,8 +14,8 @@ class GenerateImageThumbnailMessage
         return $this->assetId;
     }
 
-    public function getThumbnailConfigNames(): array
+    public function getThumbnailConfigName(): string
     {
-        return $this->thumbnailConfigNames;
+        return $this->thumbnailConfigName;
     }
 }

@@ -1,6 +1,6 @@
 {
     "name": "ntriga/pimcore-asset-thumbnails",
-    "version": "11.0.1",
+    "version": "11.1.0",
     "description": "Generates thumbnails of assets so they don't need to be generated on the fly",
     "keywords": [
         "ntriga",

@@ -37,7 +37,7 @@ $productThumbs = [
     
 $asset = new Asset\Image();
 
-$this->bus->dispatch(new GenerateImageThumbnailMessage(
+$this->bus->dispatch(new GenerateImageThumbnailsMessage(
     $asset->getId(),
     $productThumbs,
 ));

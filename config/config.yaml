@@ -8,4 +8,5 @@ framework:
                     delay: 10000
                     multiplier: 3
         routing:
-            'Ntriga\PimcoreAssetThumbnails\Message\GenerateImageThumbnailMessage': ntriga_thumbs
+            'Ntriga\PimcoreAssetThumbnails\Message\GenerateImageThumbnailsMessage': ntriga_thumbs
+            'Ntriga\PimcoreAssetThumbnails\Message\GenerateSingleImageThumbnailMessage': ntriga_thumbs

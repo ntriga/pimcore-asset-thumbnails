@@ -12,4 +12,5 @@ services:
     # ---------------------------------------------------------
     # Message Handlers
     # ---------------------------------------------------------
-    Ntriga\PimcoreAssetThumbnails\MessageHandler\GenerateImageThumbnailMessageHandler: ~
+    Ntriga\PimcoreAssetThumbnails\MessageHandler\GenerateImageThumbnailsMessageHandler: ~
+    Ntriga\PimcoreAssetThumbnails\MessageHandler\GenerateSingleImageThumbnailMessageHandler: ~
